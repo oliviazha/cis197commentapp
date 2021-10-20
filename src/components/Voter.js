@@ -6,7 +6,7 @@ const Voter = () => {
     <div className="vote flex-parent">
       <button type="button" className="vote flex-child" onClick={() => updateVotes(votes + 1)}> + </button>
       <p className="vote flex-child">{votes}</p>
-      <button type="button" classNames="vote flex-child" onClick={() => updateVotes(votes - 1)}> - </button>
+      <button type="button" className="vote flex-child" onClick={() => updateVotes(votes - 1)}> - </button>
     </div>
   )
 }
